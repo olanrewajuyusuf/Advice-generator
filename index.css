@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+#dice {
+    position: absolute;
+    bottom: -9%;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+#dice:hover {
+    box-shadow: 0 0 25px hsl(150, 100%, 66%);
+}
+small {
+    letter-spacing: 3px;
+}
+span img{
+    margin-bottom: 0px;
+}
